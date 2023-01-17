@@ -1,0 +1,36 @@
+CREATE TABLE store (id INTEGER PRIMARY KEY, apparel TEXT, quantity INTEGER, price INTEGER, material TEXT) ;
+
+INSERT INTO store VALUES(1, "T-shirt", 50, 10, "cotton") ;
+INSERT INTO store VALUES(2, "Jeans", 40, 70, "denium") ;
+INSERT INTO store VALUES(3, "Skirt", 60, 50, "cotton") ;
+INSERT INTO store VALUES(4, "Cami", 70, 10, "rayon") ;
+INSERT INTO store VALUES(5, "earrings", 12, 20, "silver") ;
+INSERT INTO store VALUES(6, "sweatshirt", 40, 65, "cotton") ;
+INSERT INTO store VALUES(7, "boots", 12, 80, "leather") ;
+INSERT INTO store VALUES(8, "necklace", 20, 18, "gold") ;
+INSERT INTO store VALUES(9, "cardigan", 28, 58, "knit") ;
+INSERT INTO store VALUES(10, "purse", 14, 100, "pleather") ;
+INSERT INTO store VALUES(11, "socks", 65, 10, "knit") ;
+INSERT INTO store VALUES(12, "sweater", 20, 45, "acrylic") ;
+INSERT INTO store VALUES(13, "button down", 19, 45, "polyester") ;
+INSERT INTO store VALUES(14, "bralette", 20, 18, "cotton") ;
+INSERT INTO store VALUES(15, "blouse", 23, 52, "silk") ;
+
+SELECT * FROM store; 
+
+SELECT * FROM store WHERE price >= 20 ;
+
+SELECT quantity, COUNT(*) FROM store ;
+
+
+
+
+
+
+
+
+
+
+
+
+
