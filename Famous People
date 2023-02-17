@@ -1,0 +1,37 @@
+/* Create table about the people and what they do here */
+CREATE TABLE movie_stars (id INTEGER PRIMARY KEY, first_name TEXT, last_name TEXT, age INTEGER, movie_title TEXT) ;
+
+INSERT INTO movie_stars (first_name, last_name, age, movie_title) VALUEs ("Pedro", "Pascal", 47, "WW84");
+INSERT INTO movie_stars (first_name, last_name, age, movie_title) VALUES ("Ben", "Affleck", "50", "Argo") ;
+INSERT INTO movie_stars (first_name, last_name, age, movie_title) VALUES ("Jennifer", "Anniston", "54", "The Breakup") ;
+INSERT INTO movie_stars (first_name, last_name, age, movie_title) VALUES ("Kate", "Winslet", "47", "Titanic") ;
+INSERT INTO movie_stars (first_name, last_name, age, movie_title) VALUES ("Sandra", "Bullock", "58", "The Blind Side") ;
+INSERT INTO movie_stars (first_name, last_name, age, movie_title) VALUES ("Huge", "Jackman", "54", "Wolverine") ;
+INSERT INTO movie_stars (first_name, last_name, age, movie_title) VALUES ("Charlize", "Theron", "47", "Monster") ;
+INSERT INTO movie_stars (first_name, last_name, age, movie_title) VALUES ("Paul", "Rudd", "53", "Ant-Man") ;
+INSERT INTO movie_stars (first_name, last_name, age, movie_title) VALUES ("Anne", "Hathaway", "40", "Devil Wears Prada") ;
+INSERT INTO movie_stars (first_name, last_name, age, movie_title) VALUES ("Nicole", "Kidman", "55", "Moulin Rouge!") ;
+INSERT INTO movie_stars (first_name, last_name, age, movie_title) VALUES ("Bradley", "Cooper", "48", "The Hangover") ;
+INSERT INTO movie_stars (first_name, last_name, age, movie_title) VALUES ("Matt", "Damon", "52", "Good Will Hunting") ;
+INSERT INTO movie_stars (first_name, last_name, age, movie_title) VALUES ("Halle", "Berry", "55", "Catwoman") ;
+INSERT INTO movie_stars (first_name, last_name, age, movie_title) VALUES ("Drew", "Barrymore", "47", "Never Been Kissed") ;
+INSERT INTO movie_stars (first_name, last_name, age, movie_title) VALUES ("Rachel", "McAdams", "44", "The Notebook") ;
+CREATE TABLE singers (id INTEGER PRIMARY KEY, name TEXT, age INTEGER, best_song TEXT) ;
+INSERT INTO singers (name, age, best_song) VALUES ("Beyonce", "41", "Crazy In Love") ;
+INSERT INTO singers (name, age, best_song) VALUES ("Harry Styles", "29", "Music for a Sushi Restaurant") ;
+INSERT INTO singers (name, age, best_song) VALUES ("Miley Cyrus", "30", "Wrecking Ball") ;
+INSERT INTO singers (name, age, best_song) VALUES ("Taylor Swift", "33", "Lover") ;
+INSERT INTO singers (name, age, best_song) VALUES ("Lizzo", "34", "Juice") ;
+INSERT INTO singers (name, age, best_song) VALUES ("Billy Joel", "73", "Piano Man") ;
+INSERT INTO singers (name, age, best_song) VALUES ("Sza", "33", "Kill Bill") ;
+INSERT INTO singers (name, age, best_song) VALUES ("Kendrick Lamar", "35", "Humble") ;
+INSERT INTO singers (name, age, best_song) VALUES ("The Weeknd", "33", "Blinding Lights") ;
+INSERT INTO singers (name, age, best_song) VALUES ("Britney Spears", "41", "Toxic") ;
+INSERT INTO singers (name, age, best_song) VALUES ("Elton John", "75", "Your Song") ;
+INSERT INTO singers (name, age, best_song) VALUES ("Oliva Rodrigo", "19", "Traitor") ;
+INSERT INTO singers (name, age, best_song) VALUES ("Billie Eilish", "21", "Bad Guy") ;
+INSERT INTO singers (name, age, best_song) VALUES ("Adele", "34", "When We Were Young") ;
+INSERT INTO singers (name, age, best_song) VALUES ("Bruno Mars", "37", "Uptown Funk") ;
+
+
+
